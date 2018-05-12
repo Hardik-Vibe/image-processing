@@ -1,8 +1,8 @@
 
 var constants = {
-    google_apikey  : "Paste Your Google API KEY",
-    google_cxID    : "Google Custom Search Engine ID",
-    port           : 5000,
+    google_apikey  : process.env.APIKEY,
+    google_cxID    : process.env.ENGINEID,
+    port           : 3000,
     public_folder  : 'public/assets/image/'
 }
 
