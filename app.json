@@ -1,8 +1,7 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "name": "image-processing",
+  "version": "1.0.0",
+  "description": "This is sample node application which allows you to connect with google custom search engine. You can search millions of images just typing phrases or keywords. On backend, node server will download first 9 images and compress it also it will change the grey scale of image. One can download image just by clickin on image.",
+  "repository": "https://github.com/Hardik-Vibe/image-processing.git",
+  "keywords": ["node", "express", "image","image processing"]
 }
