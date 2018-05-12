@@ -11,12 +11,12 @@ This is sample node application which allows you to connect with google custom s
 
 * Make sure Latest Node version is installed on your machine. If not then please follow this link ---> https://nodejs.org/en/ 
 1. Clone this repositery into your local machine. git clone https://github.com/Hardik-Vibe/image-processing.git
-2. You need to create Google Custom Search Engine. Please follow this link --> https://cse.google.co.in/cse/create/new. You will get one search engine id. You need to paste this id into app.constant.js file.
-3. You need to create Google API key. Please follow this link --> https://console.developers.google.com/. Paste this API key into app.constant.js file.
+2. You need to create Google Custom Search Engine. Please follow this link --> https://cse.google.co.in/cse/create/new. You will get one search engine id.
+3. You need to create Google API key. Please follow this link --> https://console.developers.google.com/.
 2. Now run npm install from root directory of the project.
-3. Now run npm start command. Your node server will run at port 5000. If you want to change port then use this command PORT = 3000 node index.js
+3. Now run APIKEY=GOOGLE_API_KEY ENGINE_ID=SEARCH_ENGINE_ID PORT=PORT_NUMBER node index.js
 
-You can access webpage locally at http://localhost:5000. Live demo --> https://image-processing-vibe.herokuapp.com/
+You can access webpage locally at http://localhost:3000. Live demo --> https://image-processing-vibe.herokuapp.com/
 
 # Authors
 * Hardik Rajput --- https://github.com/Hardik-Vibe
