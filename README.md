@@ -3,7 +3,8 @@
 This is sample node application which allows you to connect with google custom search engine. You can search millions of images just typing phrases or keywords. On backend, node server will download first 9 images and compress it also it will change the grey scale of image. One can download image just by clickin on image.
 
 # Table of Contents
-Installation & Usage
+* Installation & Usage
+* Demo
 
 
 # Installation & Usage
@@ -15,5 +16,7 @@ Installation & Usage
 2. Now run npm install from root directory of the project.
 3. Now run npm start command. Your node server will run at port 5000. If you want to change port then use this command PORT = 3000 node index.js
 
-You can access webpage at http://localhost:5000
+You can access webpage locally at http://localhost:5000. Live demo --> https://image-processing-vibe.herokuapp.com/
 
+# Authors
+* Hardik Rajput --- https://github.com/Hardik-Vibe
